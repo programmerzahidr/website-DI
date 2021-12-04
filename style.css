@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*-------------------
+       banner part
+    -------------------*/
+
+.first-banner{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    background: url(https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.first-bannertext{
+    padding: 150px ;
+    color: white;
+}
+
+/*-----------------------
+        end of banner
+    -----------------------*/
+
+/*-----------------------
+        card part
+    -----------------------*/
+.card-part{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.card{
+    height: 365px;
+    margin: 20px;
+    box-shadow: 15px 15px 15px #00000038;
+    margin-bottom: 100px;
+}
+.card,.card-content{
+    border-radius: 10px;
+}
+.card-content{
+    padding: 20px;
+}
+.card h3{
+    color: #454E58;
+    transition: 0.3s;
+}
+.card h3:hover{
+    color: #1A9BD5;
+}
+.card p{
+    color: #1A9BD5;
+}
+.card-part .card img{
+    width: 350px;
+    height: 250px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+/*--------------------
+    end of card part
+    ------------------*/
+
+/*--------------------
+    2nd part of card
+    ---------------------*/
+
+.second-cardtext{
+    text-align: center;
+}
+.second-cardtext h1{
+    color: #454E58;
+}
+.second-cardtext p{
+    color: #7A7A7A;
+}
+.card-courses{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.courses{
+    height: 420px;
+    margin: 20px;
+    box-shadow: 15px 15px 15px #00000038;
+    margin-bottom: 100px;
+}
+.courses,.second-card-content{
+    border-radius: 10px;
+}
+.second-card-content{
+    padding: 20px;
+}
+.courses h3{
+    color: #454E58;
+    transition: 0.3s;
+}
+.courses h3:hover{
+    color: #1A9BD5;
+}
+.courses p{
+    color: #1A9BD5;
+}
+.enroll{
+    width: 350px;
+    display: flex;
+    border-top: 1px solid #97979757;
+}
+.enroll h3{
+    width: 110px;
+    display: flex;
+    color: #1A9BD5;
+    margin: 20px 0px 0px 15px;
+}
+.enroll h4{
+    width: 250px;
+    color: #7A7A7A;
+    text-align: right;
+    margin: 22px 15px 0px 0px;
+}
+.second-card .courses img{
+    width: 350px;
+    height: 250px;
+    border-radius: 10px 10px 0px 0px;
+}
